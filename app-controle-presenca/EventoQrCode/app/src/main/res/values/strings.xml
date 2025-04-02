@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Evento Qr Code</string>
+    <string name="app_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+</resources>

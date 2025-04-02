@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FDF8F2"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtInstructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escolha uma ação para escanear o QR code"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentTop="true" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="134dp"
+        android:layout_height="156dp"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtInstructions"
+        app:srcCompat="@drawable/chat1"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <!-- Botão para abrir o scanner de QR Code -->
+    <Button
+        android:id="@+id/buttonOpenScanner"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#95E0FE"
+        android:text="Abrir Scanner" />
+
+    <!-- Botão para selecionar uma foto da galeria -->
+    <Button
+        android:id="@+id/buttonSelectPhoto"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonOpenScanner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#95E0FE"
+        android:text="Selecionar Foto" />
+</RelativeLayout>
