@@ -20,4 +20,4 @@ Olá! Sou Danilo Leite, estudante de Ciência da Computação e profissional em 
 - **Ferramentas**: GitHub, Visual Studio, Android Studio, Dev-C++, MySQL Workbench, VS Code, Blend for Visual Studio
 
 ## 📫 Como me Encontrar
-- **LinkedIn**: [linkedin.com/in/seu-nome](https://www.linkedin.com/in/danilolmr/)
+- **LinkedIn**: [linkedin.com/in/danilolmr](https://www.linkedin.com/in/danilolmr/)
