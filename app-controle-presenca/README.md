@@ -46,8 +46,10 @@ app-controle-presenca/
 │── google-services.json (Chaves do Firebase)
 ```
 
-## 📸 Capturas de Tela (Opcional)
-Adicione prints do aplicativo aqui.
+## 🎥 Demonstração do App  
+- [📹 Cadastro e Tela Principal](https://drive.google.com/file/d/1yRflBjRcPU-Ftn-o1apxEQIJGcY1TC8U/view?usp=sharing)
+  
+- [📹 Acesso Admin e Validação do QR Code](https://drive.google.com/file/d/1s0_f1uc8SMwLVnKvQlKHHe1SefDL2c9E/view?usp=sharing)  
 
 ## 📄 Licença
 Este projeto é de código aberto e está sob a licença MIT.
