@@ -4,14 +4,11 @@ Olá! Sou Danilo Leite, estudante de Ciência da Computação e profissional em 
 
 ## 🚀 Projetos em Destaque
 
-- 📱 **[App Controle de Presença](https://github.com/seu-usuario/app-controle-presenca)**
+- 📱 **[App Controle de Presença](https://github.com/danilolmr/portfolio/tree/main/app-controle-presenca)**
   - Aplicativo Android para eventos, com leitura de QR Code e Firebase.
 
-- ⚡ **[Lista Circular Encadeada](https://github.com/seu-usuario/lista-circular)**
-  - Implementação em C com alocação dinâmica de memória.
-
-- 📊 **[Banco de Dados SQL](https://github.com/seu-usuario/sql-projetos)**
-  - Projetos de modelagem e consultas em SQL.
+- 🐾 **[App SOS Vida Animal](https://github.com/danilolmr/portfolio/tree/main/app-sos-vida-animal)**
+  - Aplicativo Android para ajudar no resgate de animais, com geolocalização e Firebase.
 
 ## 🛠 Tecnologias & Habilidades
 - **Linguagens**: C#, Java, SQL, C
@@ -21,3 +18,4 @@ Olá! Sou Danilo Leite, estudante de Ciência da Computação e profissional em 
 
 ## 📫 Como me Encontrar
 - **LinkedIn**: [linkedin.com/in/danilolmr](https://www.linkedin.com/in/danilolmr/)
+
