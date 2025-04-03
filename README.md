@@ -9,7 +9,7 @@ Olá! Sou Danilo Leite, estudante de Ciência da Computação e profissional em 
 | 📱 **Android** | App Controle de Presença | [🔗 GitHub](https://github.com/danilolmr/app-controle-presenca) |
 | 📱 **Android** | SOS Vida Animal        | [🔗 GitHub](https://github.com/danilolmr/app-sos-vida-animal) |
 | 💻 **C#**     | Projeto C# X            | [🔗 GitHub](https://github.com/danilolmr/projeto-csharp1) |
-| 🔧 **C**      | Projeto C Y             | [🔗 GitHub](https://github.com/danilolmr/projeto-c1) |
+| 🔧 **C**      | Busca Caminho Grafos    | [🔗 GitHub](https://github.com/danilolmr/busca-caminho-grafos) |
 
 ## 🛠 Tecnologias & Habilidades
 - **Linguagens**: C#, Java, SQL, C
