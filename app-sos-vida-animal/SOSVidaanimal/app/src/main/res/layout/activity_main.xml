@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/reportLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDF8F2"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            app:srcCompat="@drawable/report" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Dados para a denúncia"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/etDetalhes"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:layout_below="@id/textView"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="12dp"
+            android:textSize="17dp"
+            android:background="@android:drawable/edit_text"
+            android:hint="Descreva a situação do animal:
+                    •Algum ferimento visível ou sangramento.
+•Animal está preso, machucado, debilitado,   ou em risco de atropelamento.
+                                    • Caso de maus-tratos."
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/edtDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etDetalhes"
+            android:hint="Data (DD/MM/AAAA)"
+            android:padding="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.562"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.402" />
+
+        <EditText
+            android:id="@+id/edtTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edtDate"
+            android:hint="Hora (HH:MM)"
+            android:padding="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edtDate"/>
+
+        <Button
+            android:id="@+id/btnSelectImage"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@id/edtTime"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#009688"
+            android:drawableLeft="@android:drawable/ic_menu_camera"
+            android:padding="12dp"
+            android:text="Selecionar Imagem"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toTopOf="@+id/btnReport"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.843"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/btnSelectLocation"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@id/btnSelectImage"
+            android:backgroundTint="#009688"
+            android:drawableLeft="@android:drawable/ic_menu_mylocation"
+            android:padding="12dp"
+            android:text="Selecionar Localização"
+            app:layout_constraintBottom_toTopOf="@+id/btnSelectImage"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.562"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/btnReport"
+            android:layout_width="138dp"
+            android:layout_height="66dp"
+            android:layout_below="@id/btnSelectLocation"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="#FD8E1919"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="Reportar"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edtTime"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/buttonSaibaMais"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/btnReport"
+            android:layout_marginTop="16dp"
+            android:text="Saiba Mais"
+            android:backgroundTint="#009688"
+            android:textColor="#FFFFFF"
+            app:layout_constraintTop_toBottomOf="@id/btnReport"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="134dp"
+            android:layout_height="156dp"
+            android:layout_marginTop="25dp"
+            android:layout_below="@id/buttonSaibaMais"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/chat1"
+            tools:layout_editor_absoluteX="133dp"
+            tools:layout_editor_absoluteY="152dp" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

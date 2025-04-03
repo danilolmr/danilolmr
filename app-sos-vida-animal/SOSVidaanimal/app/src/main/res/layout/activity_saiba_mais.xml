@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDF8F2"
+    tools:context=".SaibaMaisActivity">
+
+    <!-- ScrollView para permitir rolagem em textos longos -->
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/buttonVoltar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Título em destaque -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Como Denunciar Maus-Tratos a Animais"
+                android:textSize="20sp"
+                android:textColor="#333"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginBottom="12dp"
+                android:textAlignment="center" />
+
+            <!-- Corpo do texto detalhado -->
+            <TextView
+                android:id="@+id/textSaibaMais"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maus-tratos contra animais se encaixam como: abandono, envenenamento, confinamento inadequado, agressões físicas, ou outras ações que causem sofrimento. Siga os passos abaixo para realizar uma denúncia:"
+                android:textSize="16sp"
+                android:textColor="#333"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Lista dos passos -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:lineSpacingExtra="4dp"
+                android:text="1. Registrar Boletim de Ocorrência (BO) ou Ligue 181:\nVá à delegacia de polícia mais próxima para registrar o BO, ou procure a Promotoria de Justiça do Meio Ambiente em sua região. Você também pode ligar e denunciar ao 181.\n\n"
+                android:textColor="#555"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="103dp"
+                android:lineSpacingExtra="4dp"
+                android:text="2. Descrever os Fatos:\nTente relatar com precisão o que ocorreu, o local, e, se possível, o nome e endereço do(s) responsável(is). Quanto mais detalhes, melhor.\n\n"
+                android:textColor="#555"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:lineSpacingExtra="4dp"
+                android:text="3. Reunir Evidências:\nLeve qualquer evidência disponível, como fotos, vídeos, laudos veterinários, nomes e contatos de testemunhas. Esses detalhes fortalecem a denúncia.\n\n"
+                android:textColor="#555"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="94dp"
+                android:lineSpacingExtra="4dp"
+                android:text="4. Art. 32 da Lei de Crimes Ambientais:\nLeve uma cópia escrita do Art. 32 da Lei Federal nº 9.605/98, caso o policial não esteja familiarizado com a legislação de maus-tratos.\n\n"
+                android:textColor="#555"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Importante: Você não será o autor do processo judicial. Conforme o Decreto 24.645/1934, 'todos os animais são tutelados pelo Estado'. Após a apuração do crime, o delegado encaminhará o inquérito ao juízo, onde o Estado será o autor da ação penal."
+                android:textSize="15sp"
+                android:textColor="#555"
+                android:lineSpacingExtra="4dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Estilo moderno para o botão "Voltar" -->
+    <Button
+        android:id="@+id/buttonVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="12dp"
+        android:backgroundTint="#009688"
+        android:text="Voltar"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-medium"
+        android:elevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
