@@ -4,11 +4,12 @@ Olá! Sou Danilo Leite, estudante de Ciência da Computação e profissional em 
 
 ## 🚀 Projetos em Destaque
 
-- 📱 **[App Controle de Presença](https://github.com/danilolmr/portfolio/tree/main/app-controle-presenca)**
-  - Aplicativo Android para eventos, com leitura de QR Code e Firebase.
-
-- 🐾 **[App SOS Vida Animal](https://github.com/danilolmr/portfolio/tree/main/app-sos-vida-animal)**
-  - Aplicativo Android para ajudar no resgate de animais, com geolocalização e Firebase.
+| 📂 Categoria  | 📌 Projeto              | 🚀 Link |
+|--------------|------------------------|----------------|
+| 📱 **Android** | App Controle de Presença | [🔗 GitHub](https://github.com/danilolmr/app-controle-presenca) |
+| 📱 **Android** | SOS Vida Animal        | [🔗 GitHub](https://github.com/danilolmr/app-sos-vida-animal) |
+| 💻 **C#**     | Projeto C# X            | [🔗 GitHub](https://github.com/danilolmr/projeto-csharp1) |
+| 🔧 **C**      | Projeto C Y             | [🔗 GitHub](https://github.com/danilolmr/projeto-c1) |
 
 ## 🛠 Tecnologias & Habilidades
 - **Linguagens**: C#, Java, SQL, C
@@ -18,4 +19,3 @@ Olá! Sou Danilo Leite, estudante de Ciência da Computação e profissional em 
 
 ## 📫 Como me Encontrar
 - **LinkedIn**: [linkedin.com/in/danilolmr](https://www.linkedin.com/in/danilolmr/)
-
