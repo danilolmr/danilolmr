@@ -20,14 +20,16 @@ Aqui você encontrará alguns dos meus projetos, desde aplicativos Android até 
 
 ---
 
-## 🛠 Tecnologias & Habilidades  
+## 💻 Tech Stack:
+![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) ![C#](https://img.shields.io/badge/C%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white) ![Kotlin](https://img.shields.io/badge/Kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-%23007ACC.svg?style=for-the-badge&logo=Microsoft-SQL-Server&logoColor=white) ![C](https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+
+## 🛠 Habilidades  
 
 💡 Sempre buscando aprimorar minhas habilidades! Atualmente trabalho com:  
 
 - **Linguagens:** C#, Java, SQL, C  
 - **Frameworks & Bibliotecas:** .NET Core, Android Studio (Java/Kotlin)  
 - **Banco de Dados:** MySQL, Firebase Realtime Database  
-- **Ferramentas:** GitHub, Visual Studio, VS Code, Android Studio, Dev-C++, MySQL Workbench  
 
 ---
 
@@ -36,5 +38,9 @@ Aqui você encontrará alguns dos meus projetos, desde aplicativos Android até 
 🔗 Quer bater um papo ou ver mais sobre meu trabalho? Me encontre aqui:  
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/danilolmr/)
+
+---
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=danilolmr&show_icons=true&theme=radical)
 
 Vamos conversar sobre tecnologia, desenvolvimento e projetos incríveis! 🚀😃
